@@ -1,0 +1,121 @@
+header {display: flex; justify-content: center; font-family: Georgia, 'Times New Roman', Times, serif; background-color: rgb(60, 60, 133); color: aliceblue;}
+nav a { text-decoration: none; color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+nav {display: flex; justify-content: space-evenly; background-color: rgb(29, 29, 88); padding: 1%;}
+.C { color: rgb(12, 180, 231);} 
+a {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+        
+ }
+a:after { 
+    content: "";
+    position: absolute ;
+    background-color: rgb(22, 201, 233);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover::after { width: 100%}
+
+main Title { background-color: aqua;}
+main p { word-spacing: 5px; font-size: larger; width: 75%; margin-left: 1.5%;}
+img { width: 40%; height: 50%;}
+iframe {margin-left:25% ;}
+.Home {  margin-left: 15%;}
+.plat {  margin-left: 15%; width: 75%; }
+.container {display: flex; flex-direction: row; margin-left: 5%; width: 85%; margin-top: 3%;  }
+main img { margin-top: 2%;margin-left:1.5%;}
+.h { margin-left: 1.5%;}
+.wrapper { display: flex; width: 75%; margin-left: 12.5%;}
+.H1 { width: 150%;  margin-top: 7%;}
+
+caption { font-size: xx-large; padding: 1%;background-color: rgb(4, 4, 139); 
+color: aliceblue; width: 98.4%;}
+.schedule { border-collapse:collapse; caption-side: top;   
+}
+.schedule thead { background-color: rgb(4, 6, 94); color: aliceblue; font-size: xx-large;}
+.schedule tbody tr:nth-child(odd) { background-color: rgb(8, 1, 66); color: aliceblue; 
+}
+.schedule tbody {font-size: x-large;}
+table {margin-left: 35%; width: 35%; border: thick solid white; box-shadow: 1px 1px 1px 1px rgb(1, 1, 65) ;} 
+
+
+
+main p { word-spacing: 5px; font-size: larger; width: 75%; margin-left: 1.5%;}
+img { width: 40%; height: 50%;}
+.home {margin-left:1.5% ; margin-top: 2%; width: 85%;}
+.container {display: flex; flex-direction: row; margin-left: 5%; width: 85%; margin-top: 3%;  }
+main img { margin-top: 2%;margin-left:1.5%;}
+.h { margin-left: 1.5%;}
+
+.H1 { width: 150%;  margin-top: 7%;}
+
+caption { font-size: xx-large; padding: 1%;background-color: rgb(4, 4, 139); 
+color: aliceblue; width: 98.4%;}
+.schedule { border-collapse:collapse; caption-side: top;   
+}
+.schedule thead { background-color: rgb(4, 6, 94); color: aliceblue; font-size: xx-large;}
+.schedule tbody tr:nth-child(odd) { background-color: rgb(8, 1, 66); color: aliceblue; 
+}
+.schedule tbody {font-size: x-large;}
+table {margin-left: 35%; width: 35%; border: thick solid white; box-shadow: 1px 1px 1px 1px rgb(1, 1, 65) ;} 
+article {font-size: larger; word-spacing: normal; width: 35%; margin-left: 35%;
+}
+.head { margin-left: 30%;}
+
+.Fmrow label {font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: rgb(37, 165, 204); padding: 10px 10px; border-radius:5px ;} 
+    .Fmrow, .checkrow  { display: flex; gap: 10px; margin: 10px;}
+    .Fmrow label, .spacer { width: 120px; text-align: left;
+    }
+    fieldset { margin-top: 1%; border: thick solid rgb(109, 57, 57); width: 20%;}
+    input:not([type='submit']):focus,  textarea:focus { background-color: rgb(108, 177, 177);}
+    input {border-radius:5px ;} 
+    
+    .Fmrow textarea { border-radius:5px; box-shadow:   0px 0px 2px black;}
+    
+    
+    input[type='submit'] {font-size: larger; padding: 10px; 
+    background-color: rgb(2, 64, 83); 
+    color: rgb(240, 224, 224); border-radius: 5px; box-shadow: 5px 5px; margin-left: 10px; margin-top: 35px;}
+    
+    
+    
+
+form { margin-left: 30%;}
+
+.para { font-size: 10px; text-transform: uppercase; width: 50%; margin-left: 15%; background-color: rgb(99, 139, 248); color: black; width: 120%; margin-left: 0; margin-top: 1%; height: 35px; text-align: center;}
+
+
+    
+
+  .card { width: 345px; border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);  
+}
+
+
+.container .card img { width: 100%; margin: 0;}
+.card figure { margin: 0;}
+.container { display: flex; gap: 45px; flex-flow: wrap;  }
+
+h3 { font-family: Arial, Helvetica, sans-serif;}
+
+footer { margin-top: 10px}
+
+@media only screen and (max-width: 600px) {
+header { background-color: rgb(61, 44, 155); width: 100%; font-size: xx-small; padding: 0%;}
+.wrapper { display: flex; flex-direction: column;}
+nav {display: grid; width: 98%; }
+.Home iframe { margin-right: 55px;}
+.Home  { font-size: 7px; margin-right: 35px;}
+article { width: 95%; font-size: 7px; margin-left: 4%;}
+.schedule  { width: 12%;}
+aside { order: +1; margin-left: -10%;}
+aside img { width: 50%;}
+.para { width: 100%; font-size: 6px}
+.card { width: 75%;}
+}
+.card img{ width: 70%; margin-left: 2%; height: 50%; }
